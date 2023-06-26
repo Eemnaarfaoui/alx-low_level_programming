@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include "main.h"
 /**
 *puts2-prints every character of a string,starting with the first character.
 * @str: Pointer to the string.
@@ -21,8 +22,8 @@ len++;
 
 for (i = 0; i < len; i += 2)
 {
-putchar(str[i]);
+_putchar(str[i]);
 }
 
-putchar('\n');
+_putchar('\n');
 }
