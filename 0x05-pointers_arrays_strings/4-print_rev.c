@@ -11,15 +11,14 @@
 */
 void print_rev(char *s)
 {
-int length;
-int i;
+int length = strlen(s);
 
 if (s == NULL)
 {
 return;
 }
 
-int length = strlen(s);
+= strlen(s);
 
 for (int i = length - 1; i >= 0; i--)
 {
