@@ -11,6 +11,9 @@
 */
 void print_rev(char *s)
 {
+int length;
+int i;
+
 if (s == NULL)
 {
 return;
